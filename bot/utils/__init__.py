@@ -1,2 +1,1 @@
-from . import on_start
-from .on_start import notify_admins
+from . import notify_admins, set_bot_commands
