@@ -1,8 +1,8 @@
 from asyncio import run
 import logging
 import sys
-from bot.utils.notify_admins import on_startup_notify
-from bot.utils.set_bot_commands import set_default_commands
+from utils.notify_admins import on_startup_notify
+from utils.set_bot_commands import set_default_commands
 from loader import bot, dp
 
 async def on_startup():

@@ -1,6 +1,6 @@
 import logging
-from bot.data.config import ADMINS
-from bot.loader import bot
+from data.config import ADMINS
+from loader import bot
 
 
 async def on_startup_notify():

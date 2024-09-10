@@ -1,5 +1,5 @@
 from aiogram.filters import CommandStart
-from aiogram.types import Message, InlineKeyboardMarkup
+from aiogram.types import Message
 from aiogram import html
 
 from loader import dp
