@@ -2,7 +2,7 @@ from aiogram.filters import CommandStart
 from aiogram.types import Message
 from aiogram import html
 
-from loader import dp
+from bot.loader import dp
 
 @dp.message(CommandStart())
 async def command_start_handler(message: Message) -> None:
